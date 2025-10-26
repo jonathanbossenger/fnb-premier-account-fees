@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "title": "FNB Premier Account Annual Pricing Guide",
+    "period": "1 July 2025 to 30 June 2026",
+    "provider": "FirstRand Bank Limited",
+    "type": "Banking Fees and Services"
+  },
+  "accountTypes": [
+    {
+      "id": "fusion-premier",
+      "name": "FNB Fusion Premier Account",
+      "monthlyFee": 250.0,
+      "currency": "ZAR",
+      "description": "Discounted FNB Fusion Monthly Account Fee with an integrated credit facility",
+      "features": [
+        "Credit card included in monthly fee",
+        "Unlimited electronic transactions (FNB to FNB)",
+        "R3,000 cash withdrawals at no charge per month",
+        "R3,000 FNB ADT deposits at no charge per month",
+        "One Send Money transaction via FNB App per month at no charge",
+        "Up to 30 days interest-free on Fusion Card transactions",
+        "Real-Time Payments up to R4,000 per month at no charge",
+        "Unlimited WhatsApp messaging and 35 voice minutes per month on FNB Connect SIMs"
+      ]
+    },
+    {
+      "id": "premier-current",
+      "name": "FNB Premier Current Account",
+      "monthlyFee": 275.0,
+      "currency": "ZAR",
+      "description": "Premier banking with comprehensive benefits",
+      "features": [
+        "Credit card included in monthly fee",
+        "Unlimited electronic transactions (FNB to FNB)",
+        "R3,000 cash withdrawals at no charge per month",
+        "R3,000 FNB ADT deposits at no charge per month",
+        "One Send Money transaction via FNB App per month at no charge",
+        "Real-Time Payments up to R4,000 per month at no charge",
+        "Unlimited WhatsApp messaging and 35 voice minutes per month on FNB Connect SIMs"
+      ]
+    },
+    {
+      "id": "islamic-premier-current",
+      "name": "FNB Islamic Premier Current Account",
+      "monthlyFee": 275.0,
+      "currency": "ZAR",
+      "description": "Shariah-compliant banking with similar benefits to Premier Current Account",
+      "features": [
+        "Similar value adds as FNB Premier Current Account",
+        "Eligible to earn competitive monthly profit share on Islamic Savings Account",
+        "Shariah-compliant banking products"
+      ]
+    },
+    {
+      "id": "premier-credit-card",
+      "name": "FNB Premier Credit Card Account",
+      "monthlyFee": 115.0,
+      "currency": "ZAR",
+      "description": "Standalone credit card account",
+      "features": [
+        "Standalone credit card account",
+        "eBucks rewards on spending",
+        "Virtual card for secure online payments"
+      ]
+    },
+    {
+      "id": "fusion-premier-solopreneur",
+      "name": "FNB Fusion Premier Solopreneur Bundle",
+      "monthlyFee": 288.0,
+      "currency": "ZAR",
+      "description": "Bundle for solopreneurs with business and personal banking",
+      "features": [
+        "Combines personal and business banking",
+        "All Premier Fusion benefits"
+      ]
+    },
+    {
+      "id": "premier-current-solopreneur",
+      "name": "FNB Premier Current Solopreneur Bundle",
+      "monthlyFee": 310.0,
+      "currency": "ZAR",
+      "description": "Bundle for solopreneurs with business and personal banking",
+      "features": [
+        "Combines personal and business banking",
+        "All Premier Current benefits"
+      ]
+    },
+    {
+      "id": "spouse-fusion-premier",
+      "name": "Spouse/Partner Fusion Premier Account",
+      "monthlyFee": 125.0,
+      "currency": "ZAR",
+      "description": "50% discount on spouse/partner account",
+      "features": [
+        "Linked to main Premier account",
+        "50% discount on monthly fee"
+      ]
+    },
+    {
+      "id": "spouse-premier-current",
+      "name": "Spouse/Partner Premier Current Account",
+      "monthlyFee": 137.5,
+      "currency": "ZAR",
+      "description": "50% discount on spouse/partner account",
+      "features": [
+        "Linked to main Premier account",
+        "50% discount on monthly fee"
+      ]
+    }
+  ],
+  "transactionFees": {
+    "noCharge": [
+      {
+        "category": "Card Purchases",
+        "description": "All card purchases at merchants",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      },
+      {
+        "category": "Electronic Payments",
+        "description": "FNB to FNB electronic payments",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      },
+      {
+        "category": "Electronic Transfers",
+        "description": "Internal FNB transfers",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      },
+      {
+        "category": "Debit Orders",
+        "description": "Internal debit orders",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      },
+      {
+        "category": "Savings Account",
+        "description": "FNB Savings Account linked to Current account",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      },
+      {
+        "category": "Digital Banking",
+        "description": "Subscription to inContact, online banking, cellphone banking, telephone banking and FNB App",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      },
+      {
+        "category": "eBucks Rewards",
+        "description": "Subscription to eBucks rewards program",
+        "fee": 0.0,
+        "applicableTo": [
+          "fusion-premier",
+          "premier-current"
+        ]
+      }
+    ],
+    "standardFees": [
+      {
+        "category": "Payments",
+        "description": "FNB to other banks (digital banking)",
+        "fee": 2.0,
+        "channel": "Digital (Cellphone, App, Online, ATM)"
+      },
+      {
+        "category": "Payments",
+        "description": "FNB to other banks (branch)",
+        "fee": 85.0,
+        "channel": "Branch"
+      },
+      {
+        "category": "Payments",
+        "description": "FNB to other banks (telephone assisted)",
+        "fee": 85.0,
+        "channel": "Telephone Banking (Assisted)"
+      },
+      {
+        "category": "External Debit Order",
+        "description": "Debit orders to other banks",
+        "fee": 19.0
+      },
+      {
+        "category": "Payment Request",
+        "description": "Payment request convenience fee",
+        "fee": 1.0
+      },
+      {
+        "category": "International Card Purchase",
+        "description": "Card purchases in foreign currency",
+        "fee": "2.5% (max R100)"
+      }
+    ],
+    "cashTransactions": [
+      {
+        "category": "ATM Withdrawal",
+        "description": "FNB ATM cash withdrawal",
+        "fee": 11.0,
+        "note": "R3,000 per month at no charge"
+      },
+      {
+        "category": "ATM Withdrawal",
+        "description": "Other banks' ATM withdrawal",
+        "fee": 17.0
+      },
+      {
+        "category": "ATM Deposit",
+        "description": "FNB ADT cash deposit",
+        "fee": 11.0,
+        "note": "R3,000 per month at no charge"
+      },
+      {
+        "category": "Branch Deposit",
+        "description": "Branch cash deposit",
+        "fee": 35.0
+      },
+      {
+        "category": "Branch Withdrawal",
+        "description": "Branch cash withdrawal",
+        "fee": 35.0
+      },
+      {
+        "category": "Cash@Till",
+        "description": "Cashback at participating retailers",
+        "fee": "Included in R3,000 monthly allowance"
+      }
+    ],
+    "realTimePayments": [
+      {
+        "category": "Payshap/Instant Payment",
+        "description": "Real-time payments to other banks",
+        "fee": 0.0,
+        "limit": "Up to R4,000 total per month",
+        "feeAfterLimit": 2.0
+      }
+    ],
+    "sendMoney": [
+      {
+        "category": "Send Money",
+        "description": "Send Money via FNB App",
+        "fee": 0.0,
+        "limit": "One transaction per month",
+        "feeAfterLimit": "R2 + R2.70 per R100"
+      }
+    ],
+    "eWallet": [
+      {
+        "category": "eWallet Send",
+        "description": "Send money from FNB Account to eWallet",
+        "fee": "R2 + R2.70 per R100"
+      },
+      {
+        "category": "eWallet Withdrawal",
+        "description": "Withdraw cash from FNB ATM",
+        "fee": 0.0,
+        "note": "One free withdrawal per payment received (max 4)"
+      },
+      {
+        "category": "eWallet Withdrawal",
+        "description": "Withdraw cash from FNB ATM (after free limit)",
+        "fee": 11.0
+      },
+      {
+        "category": "eWallet Cash",
+        "description": "AgencyPlus cash withdrawal",
+        "fee": 0.0
+      },
+      {
+        "category": "eWallet Fee",
+        "description": "Monthly account fee",
+        "fee": 0.0
+      },
+      {
+        "category": "eWallet Inactivity",
+        "description": "Inactivity fee (after 6 months)",
+        "fee": 7.5
+      }
+    ]
+  },
+  "creditFacilities": [
+    {
+      "name": "FNB Fusion Credit Facility",
+      "monthlyServiceFee": 69.0,
+      "note": "For agreements concluded since 6 May 2016, charged upon utilisation"
+    },
+    {
+      "name": "Overdraft Service Fee",
+      "monthlyServiceFee": 69.0,
+      "monthlyNonUtilisationFee": 30.0,
+      "note": "Non-utilisation fee applicable from 1 October 2025"
+    },
+    {
+      "name": "Revolving Facility",
+      "monthlyServiceFee": 69.0,
+      "initiationFee": "Up to R1,207.50"
+    },
+    {
+      "name": "Personal Loan",
+      "monthlyServiceFee": 69.0,
+      "initiationFee": "Up to R1,207.50",
+      "note": "No initiation fee when topping up existing loan"
+    }
+  ],
+  "globalAccount": [
+    {
+      "currency": "USD",
+      "monthlyFee": 28.0,
+      "annualCardFee": 28.0,
+      "virtualCardFee": 0.0,
+      "atmWithdrawal": 5.0,
+      "cardReplacement": 12.0,
+      "balanceEnquiry": 0.5,
+      "insufficientFundsFee": 5.0
+    },
+    {
+      "currency": "EUR",
+      "monthlyFee": 26.0,
+      "annualCardFee": 26.0,
+      "virtualCardFee": 0.0,
+      "atmWithdrawal": 4.0,
+      "cardReplacement": 10.0,
+      "balanceEnquiry": 0.4,
+      "insufficientFundsFee": 4.0
+    },
+    {
+      "currency": "GBP",
+      "monthlyFee": 22.0,
+      "annualCardFee": 22.0,
+      "virtualCardFee": 0.0,
+      "atmWithdrawal": 3.0,
+      "cardReplacement": 9.0,
+      "balanceEnquiry": 0.35,
+      "insufficientFundsFee": 3.0
+    }
+  ],
+  "eBucksTravel": [
+    {
+      "category": "Airport Lounge",
+      "service": "SLOW Lounge - Domestic Terminal",
+      "fee": 300.0
+    },
+    {
+      "category": "Airport Lounge",
+      "service": "SLOW Lounge - International Terminal",
+      "fee": 550.0
+    },
+    {
+      "category": "Airline Tickets",
+      "service": "New booking - Domestic/Regional (per person)",
+      "fee": 65.0,
+      "maxFee": 260.0
+    },
+    {
+      "category": "Airline Tickets",
+      "service": "New booking - International (per person)",
+      "fee": 320.0,
+      "maxFee": 1280.0
+    },
+    {
+      "category": "Airline Tickets",
+      "service": "Change booking - Domestic (per person)",
+      "fee": 110.0
+    },
+    {
+      "category": "Airline Tickets",
+      "service": "Change booking - International (per person)",
+      "fee": 265.0
+    },
+    {
+      "category": "Airline Tickets",
+      "service": "Refund - Domestic (per person)",
+      "fee": 110.0
+    },
+    {
+      "category": "Airline Tickets",
+      "service": "Refund - International (per person)",
+      "fee": 265.0
+    },
+    {
+      "category": "Car Rental",
+      "service": "New booking - Domestic",
+      "fee": 65.0
+    },
+    {
+      "category": "Car Rental",
+      "service": "New booking - International",
+      "fee": 160.0
+    },
+    {
+      "category": "Car Rental",
+      "service": "Change booking - Domestic",
+      "fee": 110.0
+    },
+    {
+      "category": "Car Rental",
+      "service": "Change booking - International",
+      "fee": 220.0
+    },
+    {
+      "category": "Accommodation",
+      "service": "New booking - Domestic",
+      "fee": 160.0
+    },
+    {
+      "category": "Accommodation",
+      "service": "New booking - International",
+      "fee": 265.0
+    },
+    {
+      "category": "Accommodation",
+      "service": "Change booking - Domestic",
+      "fee": 160.0
+    },
+    {
+      "category": "Accommodation",
+      "service": "Change booking - International",
+      "fee": 265.0
+    }
+  ],
+  "benefits": {
+    "familyBanking": {
+      "title": "Family Banking Discount",
+      "description": "50% discount on spouse/partner monthly account fee and complimentary FNBy accounts for children"
+    },
+    "whatsapp": {
+      "title": "WhatsApp Messaging",
+      "description": "Unlimited WhatsApp messaging and 35 voice minutes every month on all FNB Connect SIMs",
+      "note": "Terms and conditions and fair usage policy apply"
+    },
+    "ebucks": {
+      "title": "eBucks Rewards",
+      "description": "Earn eBucks on spending at partner merchants",
+      "partners": [
+        "Up to 20% back at Pick n Pay",
+        "Up to 30% back on Pick n Pay asap! app",
+        "15% back at Clicks",
+        "15% back at ARC store",
+        "Up to R8/litre back at Engen",
+        "Double eBucks at Clicks for customers 60+ on Wednesdays"
+      ]
+    },
+    "insurance": {
+      "title": "Insurance Rewards",
+      "description": "Get up to 40% of life insurance premium back in eBucks and up to 15% of car and home premium back in eBucks"
+    },
+    "savings": {
+      "title": "Free Savings Products",
+      "description": "No-fee FNB Savings Account, FNB Money Maximiser, and Bank Your Change"
+    }
+  }
+}
