@@ -365,13 +365,10 @@ function handleSearch(e) {
 
         if (searchTerm === '') {
             element.style.display = '';
-            removeHighlights(element);
         } else if (matches) {
             element.style.display = '';
-            highlightText(element, searchTerm);
         } else {
             element.style.display = 'none';
-            removeHighlights(element);
         }
     });
 
@@ -404,20 +401,6 @@ function handleFilter(e) {
     });
 
     updateResultsCount();
-}
-
-// Highlight matching text
-function highlightText(element, searchTerm) {
-    // Simple highlight - just for visual feedback
-    // In a production app, you might want more sophisticated highlighting
-}
-
-// Remove highlights
-function removeHighlights(element) {
-    // Remove any highlighting classes
-    element.querySelectorAll('.highlight').forEach(el => {
-        el.classList.remove('highlight');
-    });
 }
 
 // Update results count
